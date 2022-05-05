@@ -18,11 +18,17 @@ public class Desktop  implements Hardware,Software{//Multiple Inheritance
 		System.out.println("Moniter");
 		
 	}
+	@Override
+	public void desk() {
+		System.out.println("keyboard");
+		
+	}
 	public static void main(String[] args) {
 		Desktop d=new Desktop();
 		d.desktopModel1();
 		d.softwareResources();
 		d.hardwareResources();
+		d.desk();
 	}
 	
 	
